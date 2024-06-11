@@ -1,0 +1,90 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Bitlush.AvlTree/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Bitlush.AvlTree.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Bitlush.AvlTree.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Bitlush.AvlTree/1.0.0": {
+      "type": "project",
+      "path": "../avl-tree-c-sharp/Bitlush.AvlTree/Bitlush.AvlTree.csproj",
+      "msbuildProject": "../avl-tree-c-sharp/Bitlush.AvlTree/Bitlush.AvlTree.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Bitlush.AvlTree >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/ilyanekroz/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/ilyanekroz/Desktop/projects/CSharp/Test/Test/Test.csproj",
+      "projectName": "Test",
+      "projectPath": "/Users/ilyanekroz/Desktop/projects/CSharp/Test/Test/Test.csproj",
+      "packagesPath": "/Users/ilyanekroz/.nuget/packages/",
+      "outputPath": "/Users/ilyanekroz/Desktop/projects/CSharp/Test/Test/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/ilyanekroz/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "/usr/local/share/dotnet/library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "/Users/ilyanekroz/Desktop/projects/CSharp/Test/avl-tree-c-sharp/Bitlush.AvlTree/Bitlush.AvlTree.csproj": {
+              "projectPath": "/Users/ilyanekroz/Desktop/projects/CSharp/Test/avl-tree-c-sharp/Bitlush.AvlTree/Bitlush.AvlTree.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
